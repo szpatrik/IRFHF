@@ -1,0 +1,382 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="70e76cbd-b341-46e0-b785-0c4cbfdb5c02"
+  name="BOs"
+  visibility="Private" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <referencesInternal>
+    <reference
+      Id="51bfa0a5-5714-4be7-8a15-8b2a661b26a5"
+      handle="viewcode://./CodeSchema_Namespace?Namespace%3DIRFHotels.BOs"
+      tag="ViewCode" />
+  </referencesInternal>
+  <packagedElements>
+    <packageHasNamedElement>
+      <class
+        Id="b7014f81-c46b-4885-a8a1-73a21ea4c2b9"
+        name="Hotel"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="a7a9dac2-6f4b-4311-ba05-278e4fae215f"
+            handle="viewcode://./CodeSchema_Class?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FPatrik%2FDesktop%2FIRFHotels%2Fsrc%2FIRFHotels%2Fbin%2FDebug%2FIRFHotels.exe Namespace%3DIRFHotels.BOs Type%3DHotel"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="66acfbb3-98bf-4816-8467-b742764b0fd5"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="223840b6-3104-4e31-9a8f-6d33ac2006b5">
+                <propertyInstance
+                  Id="48022896-cdff-4a42-8bc5-8b36af9065b5"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="b7f462fb-2b93-44aa-b38c-b6c0ca3c1a0e">
+                <propertyInstance
+                  Id="b4544e5e-cd64-4051-bff2-b6ab0a95c6e4"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="1644b096-be1a-4021-8097-f8d2610b8e68">
+                <propertyInstance
+                  Id="d5f1458a-ad88-4888-9fa8-b10b260feaab"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="2d3da461-6b40-4af9-926f-4ca8f45d0b8b">
+                <propertyInstance
+                  Id="465c4efa-a31c-4a53-94d2-55557a3e2e2f"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="1be89b3d-69df-4871-b5f9-9c47ef898f31">
+                <propertyInstance
+                  Id="c59a5a7a-71a5-44d4-a169-c39545fc67aa"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <ownedAttributesInternal>
+          <property
+            Id="f592d122-77a1-47a2-bcde-0af6dc8b750d"
+            name="Id"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="84fb1cf1-5800-42fe-aab0-be68576398a3"
+                handle="viewcode://./CodeSchema_Property?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FPatrik%2FDesktop%2FIRFHotels%2Fsrc%2FIRFHotels%2Fbin%2FDebug%2FIRFHotels.exe Namespace%3DIRFHotels.BOs Type%3DHotel Member%3DId"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="2db0d8cc-1543-45cb-a11a-f4ab206e1e55"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="98b94d27-703e-4136-9daa-aa0b7d01584b">
+                    <propertyInstance
+                      Id="b85ae0a0-1f56-446c-afb3-822c020831fd"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1f4e3e4e-ec87-49dc-8b6d-345a39e0e845">
+                    <propertyInstance
+                      Id="20e13ace-373d-4fc2-b6e6-a9d9257e967c"
+                      name="Get"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d56aaf3d-1651-4727-a01d-f9844bb2a6e0">
+                    <propertyInstance
+                      Id="5c876661-35d1-4206-a4a9-7c33b5796e2f"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="00e9ecec-e571-4154-9cbb-94b5f495e7c6">
+                    <propertyInstance
+                      Id="c4daf6cc-ec77-4af5-b29f-37150df694c2"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="14630405-1371-4091-a4e8-bd96b4da9cec">
+                    <propertyInstance
+                      Id="aaf3dd2f-31e0-4e1a-b02f-7e0e674a6973"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="48b375d6-97d0-43be-9db9-aec6cd475a8f">
+                    <propertyInstance
+                      Id="4b561e9b-df73-4e5a-811d-95aeec40300d"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ab63d76c-1a44-49dc-bdf9-c72d5f00595c">
+                    <propertyInstance
+                      Id="3fec01e4-d806-4570-85e4-b9bbac55efc1"
+                      name="Set"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <primitiveTypeMoniker
+                Id="220a3521-e091-4221-bae9-3ef9018e845c"
+                LastKnownName="Integer"
+                LastKnownLocation="ModelingProject1.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="a0d37fb1-eb5b-401b-9031-317b559f5317"
+            name="Name"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="a7e90650-aafc-46a9-b4f4-cc044fb25adc"
+                handle="viewcode://./CodeSchema_Property?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FPatrik%2FDesktop%2FIRFHotels%2Fsrc%2FIRFHotels%2Fbin%2FDebug%2FIRFHotels.exe Namespace%3DIRFHotels.BOs Type%3DHotel Member%3DName"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="7c254c0a-1842-453d-ba2a-cf7c53a093df"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6e4bd4fd-1e7c-49ab-9f78-c12bf5500181">
+                    <propertyInstance
+                      Id="25650236-fd2a-45eb-a91b-e653dcaee132"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="73382532-8a07-4cfb-aad4-1c97b9e48aa8">
+                    <propertyInstance
+                      Id="2fa9393d-d684-4222-a643-938850afa730"
+                      name="Get"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="464bd1dc-1fb5-4fb8-b907-1ac621c05f2c">
+                    <propertyInstance
+                      Id="fd9abea1-4d78-4a13-8da9-b96a87b093d2"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3ca0aa27-26ff-485f-a2ce-0a6c56446262">
+                    <propertyInstance
+                      Id="f15022eb-782b-49e3-bb67-308777ac33f8"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5fb08e44-6354-473c-852c-b953c435c1fb">
+                    <propertyInstance
+                      Id="9ed51367-0301-4018-bac2-0bbc056d656b"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="02e27305-3fc5-4e47-8566-bb8f6312dd72">
+                    <propertyInstance
+                      Id="dd60deac-bf6c-4e72-bd9d-5842f9db5c8a"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="418ecd5e-592b-497a-a795-59dc0acb0743">
+                    <propertyInstance
+                      Id="7308786e-4d57-4c23-8df6-59ec60c37298"
+                      name="Set"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <primitiveTypeMoniker
+                Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                LastKnownName="String"
+                LastKnownLocation="ModelingProject1.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="0a22f488-f2f0-49b6-8a21-12bb8a19452a"
+            name="FreeRoomCount"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="1d749884-6841-4145-9c1c-cde99bab5e4e"
+                handle="viewcode://./CodeSchema_Property?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FPatrik%2FDesktop%2FIRFHotels%2Fsrc%2FIRFHotels%2Fbin%2FDebug%2FIRFHotels.exe Namespace%3DIRFHotels.BOs Type%3DHotel Member%3DFreeRoomCount"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="708fbd1e-31c1-47b4-93b7-e7cbb9724d37"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="577ddfb8-0a5c-424c-930b-469e4e5ff23a">
+                    <propertyInstance
+                      Id="0e1e0410-0193-4579-929d-0ac6a7897f59"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2cb2418b-10c7-4930-a53e-623ca67aba11">
+                    <propertyInstance
+                      Id="ab432fbb-2efa-466b-901a-c96ef0775560"
+                      name="Get"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="abd679fa-5ab4-4cef-8430-05c759460c18">
+                    <propertyInstance
+                      Id="96589ef8-e97f-4d52-83cd-2f83b2cf3699"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="84a97720-61cf-4b2a-8723-413cfd2b0e3a">
+                    <propertyInstance
+                      Id="a8f5871a-5df4-4cbc-82eb-9ac72b39a4c0"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4b2844d4-8226-4379-8d37-2b5b552710a2">
+                    <propertyInstance
+                      Id="5137b9af-ce48-496f-84a1-2a3839c47494"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0319406d-a87d-47f7-bfd4-c7c0a532f2c4">
+                    <propertyInstance
+                      Id="91182f50-e673-4ee9-a1d1-e2b47d95fea1"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="78c98490-cdbe-4011-b155-8ba510262a31">
+                    <propertyInstance
+                      Id="07c72d68-dfea-4044-90ea-7deb40a3d1ad"
+                      name="Set"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <primitiveTypeMoniker
+                Id="220a3521-e091-4221-bae9-3ef9018e845c"
+                LastKnownName="Integer"
+                LastKnownLocation="ModelingProject1.uml" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="fa58a864-0d9b-4c38-b839-3934ddfa87cd"
+            name="Hotel"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="8239d008-f201-405b-8edd-e6c0779ff496"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FPatrik%2FDesktop%2FIRFHotels%2Fsrc%2FIRFHotels%2Fbin%2FDebug%2FIRFHotels.exe Namespace%3DIRFHotels.BOs Type%3DHotel Member%3D.ctor"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="a420469a-fbfc-4ec6-ac74-02e9a6ea523b"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="26e8048a-f2c7-4e28-aa12-9669c6573456">
+                    <propertyInstance
+                      Id="072ea774-fe3c-4934-985e-0d2874feace7"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4ad3f66b-c2ea-48a9-8d0f-15e24bb11507">
+                    <propertyInstance
+                      Id="43a3f6a2-53cb-4248-b28e-be6437d3b39b"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="45e618fa-d283-42dd-b2d6-cc92de017e21">
+                    <propertyInstance
+                      Id="3f7ce5d8-74a3-4ac7-9a36-3314f5036eb9"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="7118252e-4811-44db-aa3f-3f8866a1d7a5">
+                    <propertyInstance
+                      Id="7e6a3838-442f-4c87-a667-b48188088fc6"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="43ee52e7-a057-4e61-8a9a-e9c8179b5aea">
+                    <propertyInstance
+                      Id="6fc2fa2b-dbb5-4758-87ba-30ea88468aed"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1a3c80e3-82bd-4607-b44f-66c7900067dc">
+                    <propertyInstance
+                      Id="beb45728-ee7c-407b-ace0-2c0818fbc6f1"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+  </packagedElements>
+</package>

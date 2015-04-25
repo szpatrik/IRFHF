@@ -1,0 +1,609 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="5718fab0-f5c0-4926-9449-b87a8baabbf8"
+  name="Common"
+  visibility="Private" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <referencesInternal>
+    <reference
+      Id="f63a95fd-d37e-4690-af90-62e041b2f646"
+      handle="viewcode://./CodeSchema_Namespace?Namespace%3DIRFHotels.Common"
+      tag="ViewCode" />
+  </referencesInternal>
+  <packagedElements>
+    <packageHasNamedElement>
+      <Interface
+        Id="e1b6a5f3-6ac1-432c-a494-3ce6ae6a63fd"
+        name="IMonitoring"
+        isAbstract="false"
+        isLeaf="false">
+        <referencesInternal>
+          <reference
+            Id="86737bae-dea3-4b5c-b644-04a87d38d0b1"
+            handle="viewcode://./CodeSchema_Interface?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FPatrik%2FDesktop%2FIRFHotels%2Fsrc%2FIRFHotels%2Fbin%2FDebug%2FIRFHotels.exe Namespace%3DIRFHotels.Common Type%3DIMonitoring"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="ed1668a3-1cd4-42ba-9844-c6d5dbc4a0c7"
+            name="interface"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="94941853-fe73-4491-ab9c-bb5958d213c7">
+                <propertyInstance
+                  Id="6f28b771-3f30-4c81-8808-3447736b9cff"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="8f9ef9a4-cc38-4126-838c-8b2ed882231a">
+                <propertyInstance
+                  Id="94c95f61-d2d9-4df7-81af-f36f9a71eefa"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="46802607-a8fd-453f-bc83-d68de2eb6c55">
+                <propertyInstance
+                  Id="ab983db0-9fa9-4706-84a2-c41ed2440c00"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="75f94347-5b33-439f-b58c-3370f2f539a5">
+                <propertyInstance
+                  Id="f7adcf0b-5c94-4b2b-9b4d-66c98a177c2f"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <ownedOperations>
+          <operation
+            Id="83313f66-7b95-498b-9d71-da0bc19056df"
+            name="ImAlive"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="true"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="fdf23c6f-5828-4818-9ea8-9bb1155168fe"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FPatrik%2FDesktop%2FIRFHotels%2Fsrc%2FIRFHotels%2Fbin%2FDebug%2FIRFHotels.exe Namespace%3DIRFHotels.Common Type%3DIMonitoring Member%3D(Name%3DImAlive OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="3c1b81c3-7755-4d9a-943d-996bdf0ab411"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a3db4b03-a18f-42e4-83bd-a5c323824d77">
+                    <propertyInstance
+                      Id="6b14fc4d-bbad-4838-b88a-c198fe82fbe6"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="bf9b9560-6904-452e-b58a-0476172230bb">
+                    <propertyInstance
+                      Id="db6d0af7-ce17-4207-88d7-c03fd55b17cd"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3f24ede1-7552-4680-858e-dd48cb0a8a1a">
+                    <propertyInstance
+                      Id="2bbd732b-c6ce-4514-a49c-4a1f2b34d70b"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="7fa462a5-7b08-457d-b9f2-cc0a0ef8fda8">
+                    <propertyInstance
+                      Id="dd66ed3d-6ee4-4760-a8de-76d605f4ebde"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="709ec8b2-15c2-4ac8-a29e-5cae3b3a283b">
+                    <propertyInstance
+                      Id="084b8cd1-88c2-4097-95c1-894baf6f1b6c"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="81f4004a-a919-439e-ae90-07b6f897ee6d">
+                    <propertyInstance
+                      Id="035d1cd7-540a-494d-9335-4488e6d7a894"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="fffb7d19-759f-4d8a-8187-ad5f9fb989fa"
+                  name="id"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="ebda1c1c-e370-449d-b96b-8d8c760e611f"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FPatrik%2FDesktop%2FIRFHotels%2Fsrc%2FIRFHotels%2Fbin%2FDebug%2FIRFHotels.exe Namespace%3DIRFHotels.Common Type%3DIMonitoring Member%3D(Name%3DImAlive OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)]) ParameterIdentifier%3Did"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="220a3521-e091-4221-bae9-3ef9018e845c"
+                      LastKnownName="Integer"
+                      LastKnownLocation="ModelingProject1.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="e943f5db-9f01-41fc-8d87-82f28cb79683"
+                  name="freeRoomCount"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="c7c3416b-953d-4eb5-a0a6-561e57e0266e"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FPatrik%2FDesktop%2FIRFHotels%2Fsrc%2FIRFHotels%2Fbin%2FDebug%2FIRFHotels.exe Namespace%3DIRFHotels.Common Type%3DIMonitoring Member%3D(Name%3DImAlive OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)]) ParameterIdentifier%3DfreeRoomCount"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="220a3521-e091-4221-bae9-3ef9018e845c"
+                      LastKnownName="Integer"
+                      LastKnownLocation="ModelingProject1.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+        </ownedOperations>
+      </Interface>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="a3ee1f52-54ad-4323-adfa-4c9f19d8a3ca"
+        name="Monitoring"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="522248f5-7cb3-48a9-b6b1-a36db8d99878"
+            handle="viewcode://./CodeSchema_Class?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FPatrik%2FDesktop%2FIRFHotels%2Fsrc%2FIRFHotels%2Fbin%2FDebug%2FIRFHotels.exe Namespace%3DIRFHotels.Common Type%3DMonitoring"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="decea866-7acc-4b39-bab3-62d341ca7ff9"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="734ea1a1-c7e9-4cb4-8770-95f34550c0af">
+                <propertyInstance
+                  Id="dee77f83-89c0-4efb-a40d-66bb3043350d"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="030d5549-f883-45ec-9a0b-023145d8f3cb">
+                <propertyInstance
+                  Id="5e4e2277-be7e-4d87-bc03-0a27ba939646"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="0225133a-644e-4f89-bbbf-29548e6cc6f8">
+                <propertyInstance
+                  Id="56cb4d8b-1f71-43aa-95fc-dd03704673fe"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="0d009052-7499-49d3-bfb2-38f61062dde7">
+                <propertyInstance
+                  Id="964dbfc6-2f51-430c-acf5-fc1286dd2ca2"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="e8713017-786e-4876-b414-fe1e3a182c00">
+                <propertyInstance
+                  Id="e50fcad9-742d-406c-bba5-b00c1fe818c9"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <suppliersInternal>
+          <interfaceRealization
+            Id="3d559d4d-32c9-49ae-8e1f-3df61b9fb6a9">
+            <interfaceMoniker
+              Id="e1b6a5f3-6ac1-432c-a494-3ce6ae6a63fd"
+              LastKnownName="IMonitoring"
+              LastKnownLocation="Package2_2042.uml" />
+          </interfaceRealization>
+        </suppliersInternal>
+        <ownedAttributesInternal>
+          <property
+            Id="cf9687d4-8fd2-48b1-88c9-c67b27df6e03"
+            name="ActiveHotels"
+            isLeaf="false"
+            isStatic="true"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="5d7d8100-e5a4-470c-971d-e10aeb070b37"
+                handle="viewcode://./CodeSchema_Field?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FPatrik%2FDesktop%2FIRFHotels%2Fsrc%2FIRFHotels%2Fbin%2FDebug%2FIRFHotels.exe Namespace%3DIRFHotels.Common Type%3DMonitoring Member%3DActiveHotels"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="9310477c-7be9-481a-937c-860581ba55da"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1b996b5d-3ad4-4245-9fa0-3246e2ace7cc">
+                    <propertyInstance
+                      Id="0768e19c-72a9-4cd1-91a7-4cb37e230a7e"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="36e4f11e-650a-4787-bf3d-96213f15027d">
+                    <propertyInstance
+                      Id="91124c15-4902-4331-ba2b-36fdf0a0c1ad"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="75ec666b-217d-42de-bbc3-db2d2415db3d">
+                    <propertyInstance
+                      Id="498bfad1-3eb5-4681-93e5-0017ae0ad3ac"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b1a32e9e-486d-4612-bd46-d63d4e4a597d">
+                    <propertyInstance
+                      Id="ac907128-f7af-4ef1-bd02-519805089ef2"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="599e74d8-9ed1-410b-9f4d-3138e7cab592">
+                    <propertyInstance
+                      Id="be3a3f77-2697-43bd-aa79-c0c92456577c"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="c41448eb-5bbb-45fa-803d-82633b7baeaf"
+                LastKnownName="ConcurrentDictionary&lt;Int32‎, DateTime‎&gt;"
+                LastKnownLocation="Package5_2042.uml" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="c81d63b2-01e5-4877-8e61-b76354fe5fb0"
+            name="ImAlive"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="503c77e0-8788-4809-8dba-92bf77e253a1"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FPatrik%2FDesktop%2FIRFHotels%2Fsrc%2FIRFHotels%2Fbin%2FDebug%2FIRFHotels.exe Namespace%3DIRFHotels.Common Type%3DMonitoring Member%3D(Name%3DImAlive OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="2ad18e76-c58d-4108-bad5-5677018c7bba"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f5aaddda-f7d8-4b30-848d-23a2a77a845b">
+                    <propertyInstance
+                      Id="185bb3ae-b72f-48e8-8725-2b0fefd7d0bb"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="bbec9e6b-48db-460f-b3a5-66cd2a5d2bfd">
+                    <propertyInstance
+                      Id="77a0335f-0ee3-4d9e-bfb3-c588ec18d286"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0d47636b-7df7-4fea-bef7-53d36b10d9d8">
+                    <propertyInstance
+                      Id="48e923ab-6e6f-45ba-8c73-972890320385"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c1031910-78b2-417b-8893-1e56505cc761">
+                    <propertyInstance
+                      Id="fe3011b7-4733-42a7-bf60-17ea4c956330"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6aefcf2f-db5a-4f6c-ba7d-b5c10a28b6dd">
+                    <propertyInstance
+                      Id="31fdffa3-3e05-4ed6-98d8-4141015e8b95"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2f3772bd-60e2-4c4a-926b-ea1000eb59c3">
+                    <propertyInstance
+                      Id="6f5116bd-d7af-4d1d-b27d-8bbf8c23b16a"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="f766fc3b-9f61-42dc-b900-e90c88aa0055"
+                  name="id"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="eada87d8-f83f-45bf-912b-5e8fb71bd6fa"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FPatrik%2FDesktop%2FIRFHotels%2Fsrc%2FIRFHotels%2Fbin%2FDebug%2FIRFHotels.exe Namespace%3DIRFHotels.Common Type%3DMonitoring Member%3D(Name%3DImAlive OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)]) ParameterIdentifier%3Did"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="220a3521-e091-4221-bae9-3ef9018e845c"
+                      LastKnownName="Integer"
+                      LastKnownLocation="ModelingProject1.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="a3ddf421-5184-4008-b7b1-eb1e5db14dbf"
+                  name="freeRoomCount"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="56ce7020-a14e-4f3a-8efd-78c2138b5022"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FPatrik%2FDesktop%2FIRFHotels%2Fsrc%2FIRFHotels%2Fbin%2FDebug%2FIRFHotels.exe Namespace%3DIRFHotels.Common Type%3DMonitoring Member%3D(Name%3DImAlive OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)]) ParameterIdentifier%3DfreeRoomCount"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="220a3521-e091-4221-bae9-3ef9018e845c"
+                      LastKnownName="Integer"
+                      LastKnownLocation="ModelingProject1.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="038db7df-eb31-4705-b18c-c27150445c9a"
+            name="CheckAliveHotels"
+            isLeaf="false"
+            isStatic="true"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="f3e221f8-035f-4342-a8d7-2c734b84d5dc"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FPatrik%2FDesktop%2FIRFHotels%2Fsrc%2FIRFHotels%2Fbin%2FDebug%2FIRFHotels.exe Namespace%3DIRFHotels.Common Type%3DMonitoring Member%3DCheckAliveHotels"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="b051b3e1-d4c2-49de-a827-e036f78ddbc3"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="88170cd1-eeee-4a8b-9847-2a4de6106a66">
+                    <propertyInstance
+                      Id="2d3d039c-2f2a-447b-b2a4-39a380c5038d"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d7535a50-0b25-4b20-b7af-d1f80cead83a">
+                    <propertyInstance
+                      Id="90a595ad-b732-4b5f-94a4-6823a0e3b52d"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="bc7c95f2-4bcd-40d9-a451-ce96d99c1a31">
+                    <propertyInstance
+                      Id="6ece9a76-7d39-4aad-80ce-e7b42be86a21"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6dec9de0-fb99-40b0-b0af-7a8070835f50">
+                    <propertyInstance
+                      Id="b8faad60-6fb5-4c4d-8c63-bb5e46c4a225"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f8742a10-7b44-4639-8bad-9c1ac9e9acfb">
+                    <propertyInstance
+                      Id="692b7e9a-9c60-4c53-b76b-7efb25b6c17b"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3b452d6c-5a87-491e-8196-e283896f4cc3">
+                    <propertyInstance
+                      Id="df986bb9-8666-418b-a227-e8454e0991bc"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+          <operation
+            Id="b2514dfc-5dc9-4719-bebd-ae7d3421c247"
+            name="ListAliveHotels"
+            isLeaf="false"
+            isStatic="true"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="e020dc75-f7d7-408b-89c6-5f1f2651a4c0"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FPatrik%2FDesktop%2FIRFHotels%2Fsrc%2FIRFHotels%2Fbin%2FDebug%2FIRFHotels.exe Namespace%3DIRFHotels.Common Type%3DMonitoring Member%3DListAliveHotels"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="12084408-9762-4fbd-995d-8e6f30eda175"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="273ab44c-f0a7-4da5-8f71-1ddc074f64bf">
+                    <propertyInstance
+                      Id="c740c883-cb4c-4f4a-a6a2-7d47bf3cc6f6"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="eaa1b00c-c60f-4c32-8d86-6e2f64554f2c">
+                    <propertyInstance
+                      Id="f31192fd-cb25-4eaf-a57d-1164d9eedbb5"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0c1e7829-4818-435c-b8cf-31573c2040d8">
+                    <propertyInstance
+                      Id="193e5354-b8be-45cc-b551-cf728a6e1743"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b35ef4c7-22b7-4c2e-b330-e0a4b67bb95f">
+                    <propertyInstance
+                      Id="ff9cdbf5-02ae-44c3-a465-98cb4c1ffd88"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3f0e8ac6-d4c4-4c2e-a522-69807c6ff300">
+                    <propertyInstance
+                      Id="282932c3-a262-450f-b76d-2ae1e1ed6e47"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1c0e7761-08f3-417a-b574-c1a4eb3f2e09">
+                    <propertyInstance
+                      Id="7c46010e-07f1-4509-b387-2fb6be795497"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+          <operation
+            Id="92cadf6e-5e6d-48d5-a867-a148d0062b84"
+            name="Monitoring"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="264ddef5-001e-4169-8c9b-a17126b92a35"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FPatrik%2FDesktop%2FIRFHotels%2Fsrc%2FIRFHotels%2Fbin%2FDebug%2FIRFHotels.exe Namespace%3DIRFHotels.Common Type%3DMonitoring Member%3D.ctor"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="e031a8ae-d433-4370-9351-b9861f2d4447"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2a2a5bad-d21f-4255-ba16-ea8089a9695d">
+                    <propertyInstance
+                      Id="8743e0e6-4e5d-4436-b72f-26af92c5dd5d"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9ec74ab4-16d8-4b22-87ae-190d9bfbb99b">
+                    <propertyInstance
+                      Id="d1f60c09-c47c-4e70-96a2-336a13bc0672"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c527a2c7-19d5-4f2e-912b-2a4da3b8332b">
+                    <propertyInstance
+                      Id="638ea0f0-5daa-402b-a4be-5c5796467b8d"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="aff7fc7a-d2df-4a27-a0e8-a867c30b1e0a">
+                    <propertyInstance
+                      Id="c418cbc3-ab32-45ac-908c-ce17f0ebcf14"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="65f813cc-f97f-4ede-831e-ba63f9402449">
+                    <propertyInstance
+                      Id="8fb7764e-3913-4af0-b5c0-14243380d405"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="07e2968a-14f0-4d94-9b44-73f671449975">
+                    <propertyInstance
+                      Id="4dbf99c9-8ee2-4bed-ad95-08950d9f6a01"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+  </packagedElements>
+</package>
